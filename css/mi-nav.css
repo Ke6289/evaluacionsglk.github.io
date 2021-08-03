@@ -2,6 +2,12 @@ mi-nav {
   display: block;
   background-color:
     var(--colorMiNav);
+ 
+  /*mis estilos*/
+  list-style: none;
+	text-decoration: none;
+	margin: 0px auto;
+	width: 1130px;
 }
 
 mi-nav ul {
@@ -16,4 +22,9 @@ mi-nav ul {
 
 mi-nav ul li {
   margin: 0.5rem;
+ /*mis estilos*/
+  line-height: 40px;
+	float: left;
+	border-right: 1px solid white;
+	transition: all 600ms;
 }
